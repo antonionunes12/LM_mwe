@@ -4,9 +4,9 @@ channels:
   - conda-forge
   - tudat-team
 dependencies:
-  - tudatpy>=0.10
-  - numpy
-  - scipy
+  - tudatpy=0.9.0
+  - numpy=2.2.4
+  - scipy=1.15.1
   - ipython
   - ipykernel
   - nbconvert # for create_script.py utility
