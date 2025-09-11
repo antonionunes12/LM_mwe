@@ -13,4 +13,3 @@ dependencies:
   - tqdm=4.67.1
   - boost-cpp=1.85.0
   - libboost
-  - ipympl
