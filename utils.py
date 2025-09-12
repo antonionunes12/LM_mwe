@@ -210,7 +210,7 @@ class FrameConverter:
                  L_SCALE: float, T_SCALE: float, V_SCALE: float):
         
         # Step size used in the finite-differences
-        step = 2 
+        step = 100
 
         # Epochs for finite-differences
         epochs = (epoch, epoch+step/2, epoch-step/2)
