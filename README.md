@@ -8,9 +8,10 @@ These examples are established in the form of Jupyter Notebooks and may be run i
 
 To run them without the need for any installation steps, you can follow [this binder link](https://mybinder.org/v2/gh/antonionunes12/LM_mwe/master), which will open a browser-based environment that automatically installs all necessary dependencies on the cloud. Then, select one of the notebooks and proceed normally. Note that the first time the environment is built may take a considerable amout of time, until all dependencies have been installed. In addition, beware that the limited computational power available in-cloud will make the examples provided slow to run at particular points along the code.
 
-If you want to run the examples locally, which will significantly improve run speed, you will need to first create the `tudat-space` environment to install `tudatpy` and its required dependencies, as described [here](https://docs.tudat.space/en/latest/getting-started/installation.html). In addition, you will need to install Jupyet, if you haven't done yet:
-    conda install jupyter
-
+If you want to run the examples locally, which will significantly improve run speed, you will need to first create the `tudat-space` environment to install `tudatpy` and its required dependencies, as described [here](https://docs.tudat.space/en/latest/getting-started/installation.html). This requires a `conda` installation. In addition, you will need to install Jupyet, if you haven't done yet:
+```
+conda install jupyter
+````
 To start, activate the tudat-space conda environment:
 ```
 conda activate tudat-space
