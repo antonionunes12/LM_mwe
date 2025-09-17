@@ -6,7 +6,9 @@ In this repository you will find minimal working examples of the Levenberg-Marqu
 
 These examples are established in the form of Jupyter Notebooks and may be run in two ways.
 
-To run them without the need for any installation steps, you can follow [this binder link](https://mybinder.org/v2/gh/antonionunes12/LM_mwe/master), which will open a browser-based environment that automatically installs all necessary dependencies on the cloud. Then, select one of the notebooks and proceed normally. Note that the first time the environment is built may take a considerable amout of time, until all dependencies have been installed. In addition, beware that the limited computational power available in-cloud will make the examples provided slow to run at particular points along the code. Note that some browsers have been found to have problems in establishing a connection to the python kernel, the use of Mozilla Firefox or Google Chrome is recommended.
+To run them without the need for any installation steps, you can follow [this binder link](https://mybinder.org/v2/gh/antonionunes12/LM_mwe/master), which will open a browser-based environment that automatically installs all necessary dependencies on the cloud. Then, select one of the notebooks and proceed normally. Note that the first time the environment is built may take a considerable amout of time, until all dependencies have been installed.
+
+Note also that some browsers have been found to have problems in establishing a connection to the python kernel -- the use of Mozilla Firefox or Google Chrome is recommended. In addition, beware that the limited computational power available in-cloud will make the examples provided slow to run at particular points along the code. 
 
 If you want to run the examples locally, which will significantly improve run speed, you will need to first create the `tudat-space` environment to install `tudatpy` and its required dependencies, as described [here](https://docs.tudat.space/en/latest/getting-started/installation.html). This requires a `conda` installation. In addition, you will need to install Jupyter, if you haven't done yet:
 ```
