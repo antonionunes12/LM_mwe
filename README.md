@@ -12,11 +12,17 @@ If you want to run the examples locally, which will significantly improve run sp
     conda install jupyter
 
 To start, activate the tudat-space conda environment:
-    conda activate tudat-space
-Then add the ``tudat-space environment to Jupyter:
-    python -m ipykernel install --user --name=tudat-space
+```
+conda activate tudat-space
+```
+Then add the `tudat-space` environment to Jupyter:
+```
+python -m ipykernel install --user --name=tudat-space
+```
 Finally, you can create a local jupyter notebook instance:
-    jupyter notebook
+```
+jupyter notebook
+```
 
 Alternatively, if you use an IDE such as VS Code or other similar platforms, it may be possible to run the notebooks directly at the program's interface.
 
