@@ -195,6 +195,17 @@ def integrate_time(t,y,simulation_start_epoch,global_frame_origin, global_frame_
     dydt = np.sqrt((L**3)/(mu_e+mu_m))
     return dydt
 
+def create_Q(pp_to_weight, weights, N_pp):
+    Q = np.zeros((6*N_pp, 6*N_pp))
+
+    for pp, weight in zip(pp_to_weight, weights):
+        if pp>N_pp:
+            ValueError("Patch-point to weight exceeds number of patch points")
+        Q[6*(pp-1):6*(pp-1)+3,6*(pp-1):6*(pp-1)+3] = weight[0]*np.eye(3)
+        Q[6*(pp-1)+3:6*pp, 6*(pp-1)+3:6*pp] = weight[1]*np.eye(3)
+
+    return Q
+
 
 
 ######## FrameConverter class ########
