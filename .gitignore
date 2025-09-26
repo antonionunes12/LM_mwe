@@ -1,0 +1,88 @@
+# ----------------------
+# OS-specific files
+# ----------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ----------------------
+# Python cache and logs
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.pot
+*.pyc
+*.pkl
+*.pickle
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ----------------------
+# Jupyter notebooks
+# ----------------------
+.ipynb_checkpoints
+*.ipynb~      # temporary notebook files
+
+# Jupyter runtime
+.jupyter/
+.profile_default/
+ipython_config.py
+
+# ----------------------
+# IDE / editor files
+# ----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------
+# Tudat / simulation-related
+# ----------------------
+# Large output data files
+*.dat
+*.csv
+*.txt
+*.out
+*.bin
+*.h5
+
+# Temporary runs or cache
+output/
+results/
+data/
+cache/
+
+# ----------------------
+# Miscellaneous
+# ----------------------
+*.swp
+*.swo
+*~
