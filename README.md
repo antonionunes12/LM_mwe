@@ -6,7 +6,7 @@ In this repository you will find minimal working examples of the Levenberg-Marqu
 
 These examples are established in the form of Jupyter Notebooks and may be run in two ways.
 
-To run them without the need for any installation steps, you can follow [this binder link](https://mybinder.org/v2/gh/antonionunes12/LM_mwe/master), which will open a browser-based environment that automatically installs all necessary dependencies on the cloud. Then, select one of the notebooks and proceed normally. Note that building the environment for the first time may take a considerable amount of time.
+To run them without the need for any installation steps, you can follow [this binder link](https://mybinder.org/v2/gh/antonionunes12/LM_mwe/main), which will open a browser-based environment that automatically installs all necessary dependencies on the cloud. Then, select one of the notebooks and proceed normally. Note that building the environment for the first time may take a considerable amount of time.
 
 Note also that some browsers have been found to have problems in establishing a connection to the python kernel. The use of Mozilla Firefox or Google Chrome is recommended. In addition, beware that the limited computational power available through this approach will make the examples provided slow to run at particular points along the code. 
 
