@@ -1,0 +1,16 @@
+# dependencies fixed for reproducibility
+name: tudat-examples
+channels:
+  - conda-forge
+  - tudat-team
+dependencies:
+  - tudatpy=0.9.0
+  - numpy=2.2.4
+  - scipy=1.15.1
+  - ipython=8.9.0
+  - ipykernel=6.29.5
+  - nbconvert=7.16.6
+  - tqdm=4.67.1
+  - boost-cpp=1.85.0
+  - libboost
+  - ipympl
