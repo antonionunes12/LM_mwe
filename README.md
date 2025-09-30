@@ -37,7 +37,7 @@ The examples provided are the following:
 
 ## Distribution/Usage
 
-Licensed under the MIT License. See [LICENSE](license) for details.
+Licensed under the MIT License. See [LICENSE](LICENSE) for details.
 Dependencies are governed by their own licenses.
 
 If you use this software and/or its routines in your research, please cite:
