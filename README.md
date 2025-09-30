@@ -37,5 +37,9 @@ The examples provided are the following:
 
 ## Distribution/Usage
 
-If you use this software and/or its routines, in part or full, please cite as:
+Licensed under the MIT License. See [LICENSE](license) for details.
+Dependencies are governed by their own licenses.
+
+If you use this software and/or its routines in your research, please cite:
+
 ( TO BE ADDED )
