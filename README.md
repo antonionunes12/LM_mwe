@@ -1,6 +1,6 @@
 # Levenberg-Marquardt algorithm for the determination of spacecraft trajectories in the Earth-Moon system: working examples
 
-In this repository you will find working examples of the Levenberg-Marquardt algorithm for the purposes of transitioning trajectories from the Circular Restricted Three-Body Problem (CR3BP) into a high-fidelity ephemeris model (HFEM), considering the attraction forces of the Earth, Moon, and Sun.
+In this repository you will find working examples of the Levenberg-Marquardt (LM) algorithm for the purposes of transitioning trajectories from the Circular Restricted Three-Body Problem (CR3BP) into a high-fidelity ephemeris model (HFEM), considering the attraction forces of the Earth, Moon, and Sun. A full explanation of the LM implementation and deeper analysis of the results obtained may be found in [this paper](...).
 
 ## Running
 
@@ -33,4 +33,4 @@ Alternatively, if you use an IDE such as VS Code or other similar platforms, it 
 
 The examples provided are the following:
 * **L2_Halo_QPO** : Showcase of the algorithm to determine a quasi-periodic counterpart to an L2 Halo orbit in the CR3BP over 10 revolutions. *This is the starting example which should ideally be followed first*.
-* **L2_L1_Transfer** : Showcase of the algorithm to determine a transfer trajectory from an L2 Halo orbit to an L1 Lyapunov orbit from the CR3BP. The full Levenberg-Marquardt algorithm, with the possibility for adaptive weighting is employed. *This is a more advanced example that requires the user to be acquainted with the first example*. **It is not recommended to run this example in a browser through binder.**
+* **L2_L1_Transfer** : Showcase of the algorithm to determine a transfer trajectory from an L2 Halo orbit to an L1 Lyapunov orbit from the CR3BP. The full LM algorithm, with the possibility for adaptive weighting is employed. *This is a more advanced example that requires the user to be acquainted with the first example*. **It is not recommended to run this example in a browser through binder.**
